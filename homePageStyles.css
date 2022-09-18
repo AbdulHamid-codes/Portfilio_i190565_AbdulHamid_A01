@@ -1,6 +1,8 @@
 html{
     /* background-color: rgb(51,51,51); */
-    background-color: rgb(14, 40, 66)
+    /* background-color: rgb(14, 40, 66); */
+    background: url("https://www.yaagneshwaran.com/wp-content/uploads/2019/12/dark-patterns-yaagneshwaran.com_.png") no-repeat center center fixed;
+    background-size: cover;
 }
 
 #profile-title{
@@ -44,7 +46,7 @@ html{
     position: sticky;
     float: auto;
     margin: 10px auto;
-    background-color:  slategray;
+    background-color:   rgb(50, 82, 114, 0.5);
     display:flex;
     border: 2px solid black;
     justify-content: right;
@@ -62,6 +64,11 @@ a {
     color: rgb(64, 64, 141);
 }
 
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(64, 64, 141);
+}
 .navbar ul li{
     list-style-type: none;
     display: inline;
@@ -82,7 +89,7 @@ a {
     height: 500px;
     margin: 10px auto;
     border: 2px solid black;
-    background-color: rgb(50, 82, 114);
+    background-color:  rgb(50, 82, 114, 0.5);
 
 }
 
@@ -91,7 +98,8 @@ a {
     float: left;
     margin: 10px auto;
     border: 2px solid black;
-    background-color: slategray;
+    background-color:  rgb(50, 82, 114, 0.5);
+    color: white;
 }
 
 
@@ -120,12 +128,13 @@ a {
     height: 700px;
     margin: 690px auto auto auto;
     border: 2px solid black;
-    background-color: rgb(50, 82, 114);
+    background-color:  rgb(50, 82, 114, 0.5);
+    color: white;
 
 }
 
 .experience-card{
-    border: 1px solid rgb(8, 8, 46);
+    border: 1px solid rgb(8, 8, 46, 0.5);
     width: auto;
     height: 250px;
     float: auto;
@@ -143,7 +152,8 @@ a {
     height: 900px;
     margin: 30px auto;
     border: 2px solid black;
-    background-color: slategray;
+    background-color:  rgb(50, 82, 114 ,0.5);
+    color: white;
 
 }
 .education{
@@ -152,7 +162,8 @@ a {
     height: 640px;
     margin: 30px auto;
     border: 2px solid black;
-    background-color: rgb(50, 82, 114);
+    background-color:  rgb(50, 82, 114, 0.5);
+    color: white;
 
 }
 
@@ -162,7 +173,8 @@ a {
     height: 900px;
     margin: 60px auto;
     border: 2px solid black;
-    background-color:  slategray;
+    background-color:   rgb(50, 82, 114, 0.5);
+    color: white;
 }
 
 .footer{
@@ -170,7 +182,8 @@ a {
     float: auto;
     margin: 960px 0px;
     border: 2px solid black;
-    background-color:  rgb(50, 82, 114);
+    background-color:   rgb(50, 82, 114, 0.5);
+    color: white;
 }
 
 
@@ -184,15 +197,16 @@ a {
 table {
     border: 2px solid black;
     margin: auto;
-    background-color:  rgb(50, 82, 114);
+    background-color:   rgb(50, 82, 114, 0.5);
     border-collapse: collapse;
+    color: white;
   }
   
   th {
     border: 1px solid black;
   }
 
-  
+
   td {
     width: 180px;
     text-align: center;
